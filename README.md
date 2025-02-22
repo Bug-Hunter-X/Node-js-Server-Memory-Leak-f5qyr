@@ -1,0 +1,1 @@
+This repository demonstrates a common Node.js error: memory leaks caused by failing to close HTTP response objects.  The `bug.js` file contains code that creates a server which keeps connections open indefinitely, leading to a memory leak and eventual server crash.  The `bugSolution.js` provides a corrected version that properly closes the response.
